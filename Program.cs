@@ -15,8 +15,8 @@ namespace Calender
 
                 Console.Write("{0}年{1}月{2}日{3}時{4}分\n", datenow.Year, datenow.Month, datenow.Day, datenow.Hour, datenow.Minute);
 
-                DateTime dateFirst = DateTime.Parse(string.Format("{0}/{1}/1", datenow.Year, datenow.Month));
-                DisplayCalendar(dateFirst);
+               // DateTime dateFirst = DateTime.Parse(string.Format("{0}/{1}/1", datenow.Year, datenow.Month));
+               // DisplayCalendar(dateFirst);
                 Console.ReadLine();
             }
             //1カ月分のカレンダーを画面に表示する
